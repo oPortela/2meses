@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#texto {
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 400px;
+}
+
+#imagem {
+    background-image: url(imagens/nossa-foto.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 700px;
+    height: 600px;
+}
