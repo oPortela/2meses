@@ -1,3 +1,24 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Great +Vibes & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Felipa&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+    --fonte4: 'Style Script';
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,19 +26,56 @@
 
 div#texto {
     background-color: white;
-    margin: auto;
+    margin: 0 auto;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
-    height: 400px;
+    width: 550px;
+    height: 750px;
 }
 
 #imagem {
-    background-image: url(imagens/nossa-foto.png);
+    background-image: url(imagens/coracao.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: local;
     background-size: cover;
     width: 700px;
-    height: 600px;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: auto;
+    text-align: center;
+    font-family: var(--fonte4);
+    background-color: rgba(104, 157, 207, 0.829);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1em;
+    display: block;
+}
+
+p {
+    padding: 10px;
+    font-family: var(--fonte3);
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--fonte4);
+}
+
+#ps {
+    font-size: 0.7em;
+}
+
+strong {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
